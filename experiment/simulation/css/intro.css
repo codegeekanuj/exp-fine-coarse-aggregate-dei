@@ -1,0 +1,317 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simulation-container {
+  background-color: rgba(220, 229, 236, 255);
+  width: 800px;
+  height: 600px;
+  /* padding: 5px; */
+}
+
+.title {
+  margin: 0px;
+  padding: 5px;
+  letter-spacing: 0.1em;
+  background-color: rgb(20, 117, 228);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container Text  */
+
+.instruction-main {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+}
+
+.instruction {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+}
+
+.content-container {
+  position: absolute;
+  padding: 10px;
+}
+
+.content-main {
+  position: absolute;
+  display: inline-block;
+  text-align: justify;
+  top: 30px;
+  left: 100px;
+  width: 690px;
+  font-size: 20px;
+}
+
+.instruments {
+  position: absolute;
+  display: inline-block;
+  text-align: justify;
+  top: 100px;
+  left: 165px;
+  width: 690px;
+  font-size: 20px;
+}
+
+.content {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+  left: 70px;
+  font-size: 20px;
+  width: 1000px;
+}
+
+.container-of-list {
+  position: absolute;
+  text-decoration: none;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 700px;
+  font-size: 20px;
+}
+
+/* Next Button  */
+
+.next {
+  position: absolute;
+  left: 730px;
+  top: 520px;
+  padding: 10px 15px;
+  color: white;
+  background-color: rgb(20, 117, 228);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#next-to-setup1 {
+  visibility: visible;
+}
+
+#next-to-setup2 {
+  visibility: hidden;
+}
+
+/* IMAGES  */
+
+.transbox {
+  position: absolute;
+  /* border: 1px solid red; */
+  left: 460px;
+  top: 215px;
+  width: 120px;
+  height: 85px;
+}
+
+.mainPageImg-step1 {
+  position: absolute;
+  left: 180px;
+  top: 200px;
+}
+
+.instruments-img {
+  position: absolute;
+  width: 600px;
+  left: 0px;
+  top: 200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 75px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.redline {
+  /* border: 2px solid black; */
+  height: 7px;
+  width: full;
+  background-color: #fd7e14;
+}
+
+.vlabs {
+  font-size: 35px;
+  font-weight: 400;
+  color: #2c99ce;
+  font-family: sans-serif;
+}
+
+nav .logo1 {
+  height: 60px;
+}
+
+nav .logo2 {
+  height: 70px;
+}
+/* .line {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #dce5ec;
+} */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  height: 600px;
+  width: 800px;
+  background-color: #dce5ec;
+  position: relative;
+}
+
+.projection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  letter-spacing: 0.1em;
+  font-size: 1.6rem;
+  background-color: rgb(20, 117, 228);
+  color: rgb(255, 255, 255);
+}
+
+.texts {
+  font-size: 14px;
+}
+
+.step1 {
+  padding: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 200px;
+}
+
+.images {
+  position: absolute;
+  left: 4px;
+}
+
+#arrowatindex {
+  position: absolute;
+  top: 350px;
+  left: 560px;
+  z-index: 1;
+}
+
+#btn1 {
+  font-size: 16px;
+  font-family: inherit;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(20, 117, 228);
+  color: white;
+  position: absolute;
+  top: 344px;
+  left: 613px;
+  border-radius: 4px;
+  border: none;
+}
+
+#btn1:hover {
+  cursor: pointer;
+}
+
+#btn2 {
+  font-size: 16px;
+  font-family: inherit;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(20, 117, 228);
+  color: white;
+  position: absolute;
+  top: 344px;
+  left: 680px;
+  border-radius: 4px;
+  border: none;
+}
+
+#btn2:hover {
+  cursor: pointer;
+}
+
+/* our css code of container1 ends here thank you */
+
+.hide {
+  display: none;
+}
+
+#container2 {
+  height: 600px;
+  width: 800px;
+  background-color: #dce5ec;
+  position: relative;
+  /* padding-left: 70px; */
+}
+
+.projection2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  letter-spacing: 0.1em;
+  font-size: 1.6rem;
+  background-color: rgb(20, 117, 228);
+  color: white;
+}
+
+ul {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#container2 li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}
+
+#btn2 {
+  position: absolute;
+  top: 544px;
+  left: 20px;
+  font-size: 16px;
+  font-family: inherit;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(20, 117, 228);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
